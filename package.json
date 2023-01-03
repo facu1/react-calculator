@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "lint": "prettier --write ."
+    "lint": "prettier --write .",
+    "lint:check": "eslint-config-prettier src/main.tsx"
   },
   "dependencies": {
     "react": "^18.2.0",
